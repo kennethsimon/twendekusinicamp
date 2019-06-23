@@ -1,42 +1,171 @@
-@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 body{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    background-color: #bdbdbd;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.comingsoon{
+.home-page{
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-image: url('wild.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 100px;
-    flex-direction: row;
-    display: flex;
 }
-.comingsoon img{
-    width: 200px;
-    padding-right: 20px;
+.home-page img{
+    width: 150px;
+    position: absolute;
+    top: 0;
 }
-.divider{
-    height: 200px;
-    width: 1px;
+.home-page ul li a{
+    font-weight: 800;
+    font-size: 20px;
+}
+.home-page nav{
+    background-color: #e17803 !important;
+}
+nav{
+    background-color: #e17803; 
+    border-bottom: 1px black solid;
+}
+nav ul li a{
+    font-weight: 800;
+    font-size: 20px;
+}
+nav img{
+    width: 150px;
+    position: absolute;
+    top: 0;
+}
+.act-words{
+    text-align: justify;
+}
+.activities-carousel{
+    width: 100%;
+    height: 100vh;
+}
+.carousel-item{
+    width: 100%;
+    height: 100vh;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.heading h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.activity-row{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.activity-row p{
+    font-size: 20px;
+    text-align: justify;
+}
+.activity-img img{
+width: 100%;
+height: 100%;
+display: block;
+object-fit: cover;
+}
+.activitywords{
+    background-color: #e17803;
+padding: 50px;
+color: white;
+white-space: pre-wrap;
+}
+@media(max-width: 768px){
+    nav img{
+        width: 100px;
+        left: 0;
+    }
+    .activity-row{
+        width: 100%;
+    }
+    .activitywords{
+margin-bottom: 20px;
+    }
+    .activitywords p{
+        font-size: 16px;
+    }
+}
+.destination-card-image{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.destination-card-image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.destination-area{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.destination-card > .card{
+    padding: 10px;
+}
+.destination-card h6{
+    font-weight: 800;
+}
+.contactus-area{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+z-index: -1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contactus-area-form{
+    padding: 50px;
+    width: 70%;
     background-color: white;
 }
-.words{
-    padding-left: 20px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.navigation{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
-.words h3{
+
+.carousel-home{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+@media(max-width: 768px){
+    .contactus-area-form{
+        width: 90%;
+        margin-top: 200px;
+        padding: 20px;
+    }
+}
+.color-nav{
+    background-color: #e17803 !important;
+}
+
+.color-button{
+    background-color: #e17803;
     color: white;
-    font-weight: 800;
-    font-family: 'Carter One', cursive;
-    font-size: 50px;
 }
