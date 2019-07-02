@@ -238,20 +238,28 @@ font-weight: 700;
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.aboutuswords p{
+    text-align: justify;
+    font-size: 20px;
+    }
+    .camp-heading{
+        text-align: center;
+    }
 @media(max-width: 576px){
     .aboutus-area{
         width: 95%;
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    .aboutuswords p{
+        font-size: 16px;
+    }
+    .camp-heading{
+        font-size: 20px;
+        font-weight: 800;
+    }
 }
-.camp-heading{
-    text-align: center;
-}
-.aboutuswords p{
-text-align: justify;
-font-size: 20px;
-}
+
 .aboutusimage{
     width: 100%;
 }
@@ -296,6 +304,9 @@ padding: 50px;
       .contactus-area{
           width: 90%;
           padding: 20px;
+      }
+      .navigation{
+          height: 50px;
       }
       .navigation img{
           height: 100px;
