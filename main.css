@@ -111,7 +111,7 @@ font-weight: 700;
 }
 .card-content h4{
     color: white;
-    background-color: #e17803;
+    background-color: #795548;
     padding: 10px;
     max-width: 200px;
     font-size: 16px;
@@ -124,7 +124,7 @@ font-weight: 700;
 .divider{
     width: 50%;
     height: 3px !important;
-    background-color: #e17803 !important;
+    background-color: #795548 !important;
     margin: 0 auto;
 }
 @media(max-width: 576px){
@@ -284,7 +284,7 @@ font-weight: 700;
     height: 5px;
     content: "";
     position: absolute;
-    background-color: #e17803;
+    background-color: #795548;
   }
   .nav-link-ltr::before {
     width: 100%;
@@ -359,7 +359,7 @@ padding: 50px;
 .footer h3{
     font-size: 60px;
     font-weight: 800;
-    color: #e17803;
+    color: #795548;
 }
 .fwords li{
     list-style-type: none;
@@ -375,7 +375,7 @@ padding: 50px;
     20px;
 }
 .fwords h5{
-    color: #e17803;
+    color: #795548;
 }
 .footer-content{
     padding-top: 30px;
@@ -395,7 +395,7 @@ padding: 50px;
 
 
 .cont{
-    background-color: #e17803 !important;
+    background-color: #795548 !important;
 }
 
 
