@@ -1,76 +1,106 @@
-<!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg  fixed-top ken">
-        <a href="/"><img src="../twende.PNG" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/activities.html">Activities</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Destinations
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="destinations/selousgamereserve.html">Selous Game Reserve</a>
-                  <a class="dropdown-item" href="destinations/ruahanationalpark.html">Ruaha National Park</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Camps
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="camps/twendekusinicamps.html">Tulale Selous Camp</a>
-                  <a class="dropdown-item" href="camps/twenderuahacamps.html">Twende Ruaha Camp</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/tentfacilities.html">Tent Facilities</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contactus.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <div class="camp-photo">
-        <img src="https://res.cloudinary.com/dedfrilse/image/upload/v1558416484/msafirifinal/Selous-wild-dog-RR.jpg" alt="">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="homepage">
+            <div class="navigation">
+                    <div class="logo">
+                    <img src="twende.PNG" alt="">
+                    </div>
+                   <div class="list-items hide-on-med-and-down">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/aboutus.html" class='nav-link nav-link-ltr'>ABOUTUS</a></li>
+                        <li><a href="/activities.html">Activities</a></li>
+                        <li><a href="/destinations.html">Destinations</a></li>
+                        <li><a href="/tentfacilities.html">Tent Facilities</a></li>
+                        <li><a href="/contactus.html">Contact Us</a></li>
+                   </div>  
+                   <a data-target="slide-out" class="sidenav-trigger side hide-on-large-only">
+                    <img src="menu2.svg" alt="">
+                   </a>        
+                </div>
+               <div>
+                    <ul id="slide-out" class="sidenav">
+                           <div class="lists">
+                                <li><a href="/">Home</a></li>
+                                <li><div class="divider3"></div></li>
+                            <li><a href="/aboutus.html">ABOUTUS</a></li>
+                            <li><div class="divider3"></div></li>
+                            <li><a href="/activities.html">Activities</a></li>
+                            <li><div class="divider3"></div></li>
+                            <li><a href="/destinations.html">Destinations</a></li>
+                            <li><div class="divider3"></div></li>
+                            <li><a href="/tentfacilities.html">Tent Facilities</a></li>
+                            <li><div class="divider3"></div></li>
+                            <li><a href="/contactus.html">Contact Us</a></li>
+                           </div>
+                          </ul>
+               </div>
     </div>
-<div class="camp-details">
-<h2 class='camp-heading'>TWENDE KUSINI CAMPS</h2>
-<div class="camp-description">
-   <p>..beckons you to exceptional African hospitality and experiences. The true African hospitality is not lost in the wilderness. We ensure that your every need, comfort and privacy is given the utmost priority. The campsites are chosen for their location, providing beautiful views, coll breezes, total privacy and proximity to wildlife. The camp crew departs a few days before your arrival to set up camp and other facilities needed.</p>
+<div class="header-image">
+    <img src="https://res.cloudinary.com/dedfrilse/image/upload/v1558416484/msafirifinal/Selous-wild-dog-RR.jpg" alt="">
 </div>
+<div class="page-heading">
+    <h2>ABOUT US</h2>
+    <div class="divider"></div>
 </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<div class="aboutus-area">
+    <div class="row">
+        <div class="col s12 aboutuswords">
+                <h2 class='camp-heading'>TWENDE KUSINI CAMPS</h2>
+            <p>..beckons you to exceptional African hospitality and experiences. The true African hospitality is not lost in the wilderness. We ensure that your every need, comfort and privacy is given the utmost priority. The campsites are chosen for their location, providing beautiful views, coll breezes, total privacy and proximity to wildlife. The camp crew departs a few days before your arrival to set up camp and other facilities needed.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="footer">
+        <div class="row">
+            <div class="col s12 m4 fwords">
+                <h3>CAMP WITH US TODAY</h3>             
+            </div>
+            <div class="col s12 m4 fwords">
+                   <div class="footer-content">
+                        <h5>CONTACTS</h5>
+                   
+                    <li><img src="gmail.svg" alt="">&nbsp;&nbsp;twendekusinicamps@gmail.com</li>
+                                    <li><img src="email.svg" alt="">&nbsp;&nbsp;info@twendekusinicamps.com</li>
+                                    <li><img src="phone.svg" alt="">&nbsp;&nbsp;+255754695680</li>
+                                    
+                   </div>
+                </div>
+                <div class="col s12 m4 fwords">
+                        <div class="footer-content">
+                             <h5>SOCIAL MEDIA</h5>
+                        
+                         <li><img src="facebook.svg" alt="">&nbsp;&nbsp;Facebook</li>
+                                         <li><img src="twitter.svg" alt="">&nbsp;&nbsp;Twitter</li>
+                                         <li><img src="instagram.svg" alt="">&nbsp;&nbsp;Instagram</li>
+                                         
+                        </div>
+                     </div>
+        </div>
+    </div>
+
+
+<script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+     <!--JavaScript at end of body for optimized loading-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="main.js"></script>
-  </body>
+</body>
 </html>

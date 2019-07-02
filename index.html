@@ -1,91 +1,81 @@
-<!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg  fixed-top">
-        <a href="/"><img src="twende.PNG" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/aboutus.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/activities.html">Activities</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Destinations
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="destinations/selousgamereserve.html">Selous Game Reserve</a>
-                  <a class="dropdown-item" href="destinations/ruahanationalpark.html">Ruaha National Park</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Camps
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="camps/tulaleselouscamp.html">Tulale Selous Camp</a>
-                  <a class="dropdown-item" href="camps/twenderuahacamps.html">Twende Ruaha Camp</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/tentfacilities.html">Tent Facilities</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contactus.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <div class="home-carousel-area">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://res.cloudinary.com/dedfrilse/image/upload/v1560245277/msafirifinal/DSC04455.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://res.cloudinary.com/dedfrilse/image/upload/v1560271559/msafirifinal/dining.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://res.cloudinary.com/dedfrilse/image/upload/v1560245278/msafirifinal/DSC04464.jpg" class="d-block w-100" alt="...">
-              </div>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="owl/dist/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="owl/dist/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <div class="home-page">
+        <div class="navigation">
+            <div class="logo">
+            <img src="twende.PNG" alt="">
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+           <div class="list-items hide-on-med-and-down">
+                <li><a href="/" class='nav-link nav-link-ltr'>Home</a></li>
+                <li><a href="/aboutus.html">ABOUTUS</a></li>
+                <li><a href="/activities.html">Activities</a></li>
+                <li><a href="/destinations.html">Destinations</a></li>
+                <li><a href="/tentfacilities.html">Tent Facilities</a></li>
+                <li><a href="/contactus.html">Contact Us</a></li>
+           </div>  
+           <a data-target="slide-out" class="sidenav-trigger side hide-on-large-only">
+            <img src="menu2.svg" alt="">
+           </a>        
+        </div>
+       <div>
+            <ul id="slide-out" class="sidenav">
+                   <div class="lists">
+                        <li><a href="/">Home</a></li>
+                        <li><div class="divider3"></div></li>
+                    <li><a href="/aboutus.html">ABOUTUS</a></li>
+                    <li><div class="divider3"></div></li>
+                    <li><a href="/activities.html">Activities</a></li>
+                    <li><div class="divider3"></div></li>
+                    <li><a href="/destinations.html">Destinations</a></li>
+                    <li><div class="divider3"></div></li>
+                    <li><a href="/tentfacilities.html">Tent Facilities</a></li>
+                    <li><div class="divider3"></div></li>
+                    <li><a href="/contactus.html">Contact Us</a></li>
+                   </div>
+                  </ul>
+       </div>
+       <div class="carousel-area">
+            <div class="owl-carousel owl-theme">
+                    <div class="safari-carousel"><img src="https://res.cloudinary.com/dedfrilse/image/upload/v1560245277/msafirifinal/DSC04455.jpg" alt=""></div>
+                    <div class="safari-carousel"><img src="https://res.cloudinary.com/dedfrilse/image/upload/v1560245278/msafirifinal/DSC04464.jpg" alt=""/></div>
+                    <div class="safari-carousel"><img src="https://res.cloudinary.com/dedfrilse/image/upload/v1560271559/msafirifinal/dining.jpg" alt=""/></div>
+                    <div class="safari-carousel"><img src="https://res.cloudinary.com/dedfrilse/image/upload/v1558418223/msafirifinal/TaZa05-162.jpg" alt=""/></div>
+                </div>
+       </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+   
+
+
+
+
+
+
+
+
+
+   
+    <!--JavaScript at end of body for optimized loading-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="owl/dist/owl.carousel.min.js"></script>
+     <!--JavaScript at end of body for optimized loading-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>
