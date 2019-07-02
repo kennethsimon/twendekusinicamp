@@ -129,6 +129,10 @@ font-weight: 700;
     .cards{
         width: 100%;
     }
+    .page-heading p{
+        max-width: 90%;
+        font-size: 18px;
+    }
 }
 .carousel-area{
     width: 100%;
