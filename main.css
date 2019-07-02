@@ -186,6 +186,9 @@ font-weight: 700;
     width: 20px;
 }
 @media(max-width: 576px){
+    .tent-div{
+        width: 98%;
+    }
     .tent-items{
         align-items: flex-start;
         flex-wrap: wrap;
@@ -355,7 +358,14 @@ padding: 50px;
 .footer-content{
     padding-top: 30px;
 }
-
+@media(max-width: 576px){
+    .footer h3{
+        font-size: 40px;
+    }
+    .fwords li{
+        font-size: 16px;
+    }
+}
 
 
 
