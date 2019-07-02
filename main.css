@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=B612&display=swap');
 body{
     padding: 0px;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-color: #bdbdbd;
 }
 .home-page{
@@ -39,13 +40,14 @@ body{
     list-style-type: none;
     padding-left: 10px;
     padding-right: 10px;
-    font: normal 500 15px / 19px "Roboto", Helvetica, Arial, Verdana, sans-serif;
     text-transform: uppercase;
 }
 .list-items li a{
     text-decoration: none;
     color: #333333;
+    letter-spacing: 1px;
     font-size: 20px;
+    font-weight: bold;
 }
 .header-image{
     width: 100%;
@@ -76,7 +78,7 @@ font-weight: 700;
     max-width: 70%;
     margin: 0 auto;
     font-size: 20px;
-    font-style: italic;
+    font-style: normal;
     padding-bottom: 100px;
     padding-top: 20px;
     text-align: justify;
@@ -392,7 +394,9 @@ padding: 50px;
 
 
 
-
+.cont{
+    background-color: #e17803 !important;
+}
 
 
 
