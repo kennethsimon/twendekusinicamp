@@ -59,6 +59,11 @@ body{
     display: block;
     object-fit: cover;
 }
+@media(max-width: 576px){
+    .header-image{
+        height: 300px;
+    }
+}
 .page-heading {
     width: 100%;
 }
