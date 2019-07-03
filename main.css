@@ -404,7 +404,12 @@ padding: 50px;
 .sidenav{
     background-color: #795548 !important;
 }
-
+.meal-image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
 
 
 
